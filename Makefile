@@ -14,7 +14,7 @@ include $(INCLUDE_DIR)/package.mk
 
 GEOIP_FILE:=geoip.dat
 define Download/geoip
-  URL:=https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/
+  URL:=https://github.com/Loyalsoldier/geoip/releases/latest/download/
   URL_FILE:=geoip.dat
   FILE:=$(GEOIP_FILE)
   HASH:=skip
